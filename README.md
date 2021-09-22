@@ -1,10 +1,24 @@
-- 👋 Hi, I’m @NaimurRahaman129github
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-NaimurRahaman129github/NaimurRahaman129github is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+jQuery('.owl-carousel').owlCarousel({
+            center: true,
+            items:3,
+            loop:true,
+            margin:30,
+            nav:false,
+            dots:true,
+            autoplay: true,
+            slideTransition: 'linear',
+            autoplayTimeout: 6000,
+            autoplaySpeed: 6000,
+            autoplayHoverPause: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
